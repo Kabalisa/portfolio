@@ -1,0 +1,75 @@
+.Welcome {
+  background-image: url('../images/backgound.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.Projects {
+  background-image: url('../images/keyboard.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.menu {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name {
+  margin-top: 8%;
+  margin-left: 3%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #88f561;
+}
+
+.hambuger {
+  margin-top: 3%;
+  margin-right: -21%;
+}
+
+.hambuger,
+img {
+  width: 36%;
+  cursor: pointer;
+}
+
+.MenuBody {
+  color: white;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 35%;
+  height: 7%;
+  border: none;
+  border-radius: 10%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
