@@ -7,8 +7,10 @@ const Welcome = () => {
     <div className='Welcome'>
       <Menu />
       <div className='MenuBody'>
-        <p>Full-stack Software Engineer</p>
-        <p>I am a frontend, backend and mobile developer.</p>
+        <p className='title'>Full-stack Software Engineer</p>
+        <p className='titleDescription'>
+          I am a frontend, backend and mobile developer.
+        </p>
         <Button backgroundColor='#4A8236' color='white' value='See Projects' />
         <Button
           backgroundColor='#4A8236'

@@ -3,13 +3,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  font-family: Roboto;
 }
 
 .Projects {
   background-image: url('../images/keyboard.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  /* height: 100vh; */
+  font-family: Roboto;
 }
 
 .menu {
@@ -22,7 +24,6 @@
 .name {
   margin-top: 8%;
   margin-left: 3%;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -51,12 +52,60 @@ img {
 }
 
 .button {
-  width: 35%;
-  height: 7%;
+  font-family: Roboto;
+  width: 37%;
+  height: 6%;
   border: none;
   border-radius: 10%;
   margin-top: 3%;
   margin-bottom: 3%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.titleDescription {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #88f561;
+}
+
+.ProjectsBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ProjectsCard {
+  width: 80%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.extraLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 3%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.extraIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 @media (prefers-reduced-motion: no-preference) {
