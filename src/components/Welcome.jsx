@@ -1,11 +1,9 @@
 import React from 'react';
-import { Menu } from './Menu';
 import { Button } from './button';
 
 const Welcome = () => {
   return (
     <div className='Welcome'>
-      <Menu />
       <div className='MenuBody'>
         <p className='title'>Full-stack Software Engineer</p>
         <p className='titleDescription'>

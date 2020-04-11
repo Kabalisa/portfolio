@@ -1,11 +1,9 @@
 import React from 'react';
-import { Menu } from './Menu';
 import Profile from '../assets/images/innocent fiston kabalisa (2).jpg';
 
 const AboutMe = () => {
   return (
     <div className='AboutMe'>
-      <Menu />
       <div className='ProfileImage'>
         <img className='ProfileImg' alt='profile' src={Profile} />
       </div>

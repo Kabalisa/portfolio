@@ -16,15 +16,24 @@
 
 .AboutMe {
   background-color: #2f2d2d;
-  height: 100vh;
+  /* height: 100vh; */
+  font-family: Roboto;
+}
+
+.ContactMe {
+  background-color: #000000;
   font-family: Roboto;
 }
 
 .menu {
+  position: sticky;
+  top: 0;
+  background-color: black;
   color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  z-index: 1;
 }
 
 .name {
@@ -39,12 +48,10 @@
 
 .hambuger {
   margin-top: 3%;
-  margin-right: -21%;
 }
 
-.hambuger,
-img {
-  width: 36%;
+.hambuger > img {
+  width: 80%;
   cursor: pointer;
 }
 
@@ -168,6 +175,58 @@ img {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.ContactsContainer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ContactsContainer > hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #fff;
+  margin: 1em 0;
+  padding: 0;
+}
+.Copyright {
+  color: #ffffff;
+  text-align: center;
+}
+
+.Copyright > img {
+  width: 3%;
+}
+
+.ContactsContainer > span {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  width: 90%;
+}
+
+.Contacts {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.Contacts > a > img {
+  width: 12%;
+}
+
+.Contacts > p > img {
+  width: 12%;
+  margin-right: 2%;
+}
+
+.Contacts > p > span {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
