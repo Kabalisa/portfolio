@@ -128,6 +128,7 @@
 .ProfileImg {
   border-radius: 50%;
   width: 50%;
+  margin-top: 2%;
 }
 
 .TextContainer {
@@ -195,10 +196,15 @@
 .Copyright {
   color: #ffffff;
   text-align: center;
+  position: relative;
 }
 
 .Copyright > img {
   width: 3%;
+}
+
+.Copyright > span {
+  margin-left: 1%
 }
 
 .ContactsContainer > span {
@@ -211,7 +217,7 @@
 .Contacts {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 60%;
 }
 
 .Contacts > a > img {
@@ -227,6 +233,17 @@
   font-weight: bold;
   font-size: 13px;
   line-height: 15px;
+}
+
+.ui.segment {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+}
+
+.SideOptions {
+  color: #88f561;
 }
 
 @media (prefers-reduced-motion: no-preference) {

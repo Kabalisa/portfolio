@@ -4,6 +4,7 @@ import Gmail from '../assets/images/gmail.png';
 import Linkedin from '../assets/images/linkedin.png';
 import Whatsapp from '../assets/images/whatsapp.png';
 import Copyright from '../assets/images/copyright-symbol.png';
+
 const ContactMe = () => {
   return (
     <div className='ContactMe'>
