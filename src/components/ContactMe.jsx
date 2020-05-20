@@ -9,7 +9,7 @@ const ContactMe = () => {
   return (
     <div className='ContactMe'>
       <div className='ContactsContainer'>
-        <span>Let's get in touch:</span>
+        <span className='InTouch' >Let's get in touch:</span>
         <div className='Contacts'>
           <a>
             <img alt='Gmail' src={Gmail} />

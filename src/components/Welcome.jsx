@@ -9,12 +9,14 @@ const Welcome = () => {
         <p className='titleDescription'>
           I am a frontend, backend and mobile developer.
         </p>
+        <div className='buttonContainer' >
         <Button backgroundColor='#4A8236' color='white' value='See Projects' />
         <Button
           backgroundColor='#4A8236'
           color='white'
           value='Download Resume'
         />
+        </div>
       </div>
     </div>
   );
