@@ -301,6 +301,15 @@
     flex-direction: row;
     justify-content: space-evenly;
   }
+  .ProjectsBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .ProfileImg {
+    width: 300px;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {

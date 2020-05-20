@@ -8,6 +8,7 @@ const Projects = () => {
       <div className='ProjectsBody'>
         <ProjectCard data={authorsHaven} />
         <ProjectCard data={codelab} />
+        <ProjectCard data={codelab} />
       </div>
     </div>
   );

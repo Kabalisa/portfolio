@@ -4,9 +4,7 @@ import Profile from '../assets/images/innocent fiston kabalisa (2).jpg';
 const AboutMe = () => {
   return (
     <div className='AboutMe'>
-      <div className='ProfileImage'>
-        <img className='ProfileImg' alt='profile' src={Profile} />
-      </div>
+      <img className='ProfileImg' alt='profile' src={Profile} />
       <div className='TextContainer'>
         <p className='AboutMeText'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
