@@ -16,7 +16,15 @@ const Menu = ({ Open }) => {
   return (
     <div className='menu'>
       <span className='name'>Innocent Fiston Kabalisa</span>
-      {width > 768 ? <span className='MenuOptions' >Projects</span> : <Fragment>
+      {width > 768 ? <div className='MenuOptionsContainer'>
+        <div className='MenuOptions' >
+        <span>Projects</span>
+        <span>About Me</span>
+        <span>Contact Me</span>
+        </div>
+        </div> 
+        : 
+        <Fragment>
       <span className='hambuger' onClick={Open}>
         <img alt='hambuger button' src={menuIcon} />
       </span>

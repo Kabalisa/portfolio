@@ -32,18 +32,18 @@
   color: white;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   z-index: 1;
 }
 
 .name {
   margin-top: 8%;
-  margin-left: 3%;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
   color: #88f561;
+  cursor: pointer;
 }
 
 .hambuger {
@@ -275,8 +275,32 @@
 }
 
 @media  (min-width: 768px) {
+  .MenuOptionsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:55%;
+  }
+
   .MenuOptions {
-    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .MenuOptions > span {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .name {
+    margin-top: 40px;
+    margin-bottom: 29px;
+    width: 40%;
+    font-size: 25px;
   }
   .title {
     font-size: 30px;
@@ -319,9 +343,6 @@
     width: 100%;
     line-height: 25px;
   }
-  /* .SkillsContainer {
-    background-color: hotpink;
-  } */
   
   .SkillsContainer > span {
     align-self: flex-end;
