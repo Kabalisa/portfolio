@@ -157,13 +157,13 @@
   width: 80%;
 }
 
-.Skills > span {
+.SkillsCard > span {
   font-weight: bold;
   font-size: 14px;
   color: #88f561;
 }
 
-.Skills > ul {
+.SkillsCard > ul {
   height: 10vh;
   display: flex;
   flex-direction: column;
@@ -318,6 +318,72 @@
     font-size: 20px;
     width: 100%;
     line-height: 25px;
+  }
+  /* .SkillsContainer {
+    background-color: hotpink;
+  } */
+  
+  .SkillsContainer > span {
+    align-self: flex-end;
+    font-size: 18px;
+  }
+  
+  .Skills {
+    width: 85%;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .SkillsCard {
+    width: 30%;
+    margin-top: 1%;
+  }
+  
+  .SkillsCard > span {
+    font-weight: bold;
+    font-size: 16px;
+    color: #88f561;
+  }
+  
+  .SkillsCard > ul {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 15px;
+  }
+
+  .InTouch {
+    font-size: 20px !important;
+  }
+
+  .Contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 60%;
+  }
+
+  .Contacts > a {
+    width: 30%;
+  }
+
+  .Contacts > p {
+    width: 33%;
+  }
+  
+  .Contacts > a > img {
+    width: 40px;
+    cursor: pointer;
+  }
+  
+  .Contacts > p > img {
+    width: 40px;
+    cursor: pointer;
   }
 }
 

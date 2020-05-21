@@ -21,6 +21,7 @@ const AboutMe = () => {
       <div className='SkillsContainer'>
         <span>Skills:</span>
         <div className='Skills'>
+          <div className='SkillsCard' >
           <span>Frontend Skills</span>
           <ul>
             <li>that time</li>
@@ -32,6 +33,8 @@ const AboutMe = () => {
             <li>that time</li>
             <li>that time</li>
           </ul>
+          </div>
+          <div className='SkillsCard'>
           <span>Backend Skills</span>
           <ul>
             <li>lower body</li>
@@ -40,10 +43,25 @@ const AboutMe = () => {
             <li>lower body</li>
             <li>lower body</li>
           </ul>
-          <span>Project management</span>
+          </div>
+          <div className='SkillsCard'>
+          <span>Database tools</span>
           <ul>
             <li>indigo</li>
           </ul>
+          </div>
+          <div className='SkillsCard'>
+          <span>Testing tools</span>
+          <ul>
+            <li>indigo</li>
+          </ul>
+          </div>
+          <div className='SkillsCard'>
+          <span>DevOps tools</span>
+          <ul>
+            <li>indigo</li>
+          </ul>
+          </div>
         </div>
       </div>
     </div>
