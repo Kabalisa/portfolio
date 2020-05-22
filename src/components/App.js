@@ -11,19 +11,19 @@ const App = () => {
   const [visible, setVisible] = useState(false);
   
   const HandleOpenSideBar = () => setVisible(true);
-  const HandleHideSideBae = () => setVisible(false);
+  const HandleHideSideBar = () => setVisible(false);
   
   return (
     <Fragment>
       <Menu Open={HandleOpenSideBar} />
-      <SidebarComponent visible={visible} hide={HandleHideSideBae} >
-       <Welcome />
+      <SidebarComponent visible={visible} hide={HandleHideSideBar} >
+       <Welcome id='name' />
       </SidebarComponent>
-      <SidebarComponent visible={visible} hide={HandleHideSideBae} ><Projects /></SidebarComponent>
-      <SidebarComponent visible={visible} hide={HandleHideSideBae} >
+      <SidebarComponent visible={visible} hide={HandleHideSideBar} ><Projects id='projects' /></SidebarComponent>
+      <SidebarComponent visible={visible} hide={HandleHideSideBar} >
         <Fragment>
-        <AboutMe />
-        <ContactMe />
+        <AboutMe id='aboutMe' />
+        <ContactMe id='contactMe' />
         </Fragment>
         </SidebarComponent>
     </Fragment>

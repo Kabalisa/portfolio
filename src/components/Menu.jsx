@@ -1,4 +1,5 @@
 import React, { useState, useEffect, Fragment } from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 import menuIcon from '../assets/images/menu.png';
 
 const Menu = ({ Open }) => {
@@ -15,12 +16,55 @@ const Menu = ({ Open }) => {
 
   return (
     <div className='menu'>
-      <span className='name'>Innocent Fiston Kabalisa</span>
+      <span className='name' >
+      <Link
+        activeClass="nameActive"
+        to='name'
+        spy={true}
+        smooth={true}
+        offset={-90}
+        duration={1000}
+        >
+        Innocent Fiston Kabalisa
+        </Link>
+      </span>
       {width >= 768 ? <div className='MenuOptionsContainer'>
         <div className='MenuOptions' >
-        <span>Projects</span>
-        <span>About Me</span>
-        <span>Contact Me</span>
+          <Link
+          activeClass='optionsActive' 
+          to='projects'
+          smooth={true}
+          spy={true}
+          smooth={true}
+          offset={-88}
+          duration={1000}
+          >
+          Projects
+          </Link>
+          <Link
+            activeClass='optionsActive'
+            to='aboutMe'
+            smooth={true}
+            smooth={true}
+            spy={true}
+            smooth={true}
+            offset={-88}
+            duration={1000}
+            >
+            About Me
+          </Link>
+           <Link
+            activeClass='optionsActive'
+            to='contactMe'
+            smooth={true}
+            smooth={true}
+            spy={true}
+            smooth={true}
+            offset={-90}
+            duration={1000}
+            >
+              Contact Me
+          </Link>
         </div>
         </div> 
         : 

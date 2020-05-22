@@ -1,9 +1,9 @@
 import React from 'react';
 import Profile from '../assets/images/innocent fiston kabalisa (2).jpg';
 
-const AboutMe = () => {
+const AboutMe = ({id}) => {
   return (
-    <div className='AboutMe'>
+    <div className='AboutMe' id={id} >
       <div className='ImageText' >
       <img className='ProfileImg' alt='profile' src={Profile} />
       <div className='TextContainer' >

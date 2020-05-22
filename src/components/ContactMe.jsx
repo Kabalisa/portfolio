@@ -5,9 +5,9 @@ import Linkedin from '../assets/images/linkedin.png';
 import Whatsapp from '../assets/images/whatsapp.png';
 import Copyright from '../assets/images/copyright-symbol.png';
 
-const ContactMe = () => {
+const ContactMe = ({id}) => {
   return (
-    <div className='ContactMe'>
+    <div className='ContactMe' id={id} >
       <div className='ContactsContainer'>
         <span className='InTouch' >Let's get in touch:</span>
         <div className='Contacts'>
