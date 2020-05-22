@@ -37,11 +37,12 @@ const AboutMe = () => {
           <div className='SkillsCard'>
           <span>Backend Skills</span>
           <ul>
-            <li>lower body</li>
-            <li>lower body</li>
-            <li>lower body</li>
-            <li>lower body</li>
-            <li>lower body</li>
+            <li>lower bodytytt</li>
+            <li>lower bodytytt</li>
+            <li>lower bodytytt</li>
+            <li>lower bodytytt</li>
+            <li>lower bodytytt</li>
+            <li>lower bodytytt</li>
           </ul>
           </div>
           <div className='SkillsCard'>

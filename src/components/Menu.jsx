@@ -16,7 +16,7 @@ const Menu = ({ Open }) => {
   return (
     <div className='menu'>
       <span className='name'>Innocent Fiston Kabalisa</span>
-      {width > 768 ? <div className='MenuOptionsContainer'>
+      {width >= 768 ? <div className='MenuOptionsContainer'>
         <div className='MenuOptions' >
         <span>Projects</span>
         <span>About Me</span>

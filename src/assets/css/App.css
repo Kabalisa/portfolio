@@ -44,6 +44,7 @@
   line-height: 19px;
   color: #88f561;
   cursor: pointer;
+  width: 80%;
 }
 
 .hambuger {
@@ -67,7 +68,7 @@
 .button {
   font-family: Roboto;
   width: 37%;
-  height: 6%;
+  height: 25%;
   border: none;
   border-radius: 10%;
   margin-top: 3%;
@@ -243,14 +244,22 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  height: 25vh;
 }
 
 @media (min-width: 500px) {
   .name {
     margin-top: 5%;
+    font-size: 18px;
   }
   .Copyright > img {
     width: 1%;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .titleDescription {
+    font-size: 16px;
   }
 }
 
@@ -359,7 +368,7 @@
   }
 
   .SkillsCard {
-    width: 30%;
+    width: 300px;
     margin-top: 1%;
   }
   
