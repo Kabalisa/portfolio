@@ -35,7 +35,6 @@ const Menu = ({ Open }) => {
           to='projects'
           smooth={true}
           spy={true}
-          smooth={true}
           offset={-88}
           duration={1000}
           >
@@ -45,9 +44,7 @@ const Menu = ({ Open }) => {
             activeClass='optionsActive'
             to='aboutMe'
             smooth={true}
-            smooth={true}
             spy={true}
-            smooth={true}
             offset={-88}
             duration={1000}
             >
@@ -57,9 +54,7 @@ const Menu = ({ Open }) => {
             activeClass='optionsActive'
             to='contactMe'
             smooth={true}
-            smooth={true}
             spy={true}
-            smooth={true}
             offset={-90}
             duration={1000}
             >

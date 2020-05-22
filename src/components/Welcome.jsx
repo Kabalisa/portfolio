@@ -15,7 +15,6 @@ const Welcome = ({id}) => {
           to='projects'
           smooth={true}
           spy={true}
-          smooth={true}
           offset={-88}
           duration={1000}
         ><Button backgroundColor='#4A8236' color='white' value='See Projects' /></Link>

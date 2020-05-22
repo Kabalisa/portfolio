@@ -270,6 +270,10 @@
   margin-top: 1%;
 }
 
+a {
+  color: white;
+}
+
 @media (min-width: 500px) {
   .nameActive {
     margin-top: 5%;
@@ -354,10 +358,6 @@
     font-size: 25px;
   }
 
-  a {
-    color: white;
-  }
-
   .name {
     margin-top: 40px;
     margin-bottom: 29px;
@@ -417,7 +417,7 @@
   }
 
   .SkillsCard {
-    width: 300px;
+    width: 325px;
     margin-top: 1%;
   }
   

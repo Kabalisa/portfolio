@@ -1,5 +1,7 @@
 import React from 'react';
-import Profile from '../assets/images/innocent fiston kabalisa (2).jpg';
+import { SkillCard } from './SkillCard';
+import { skillsData } from '../assets/objects/skillsData';
+import Profile from '../assets/images/innocent fiston kabalisa.jpg';
 
 const AboutMe = ({id}) => {
   return (
@@ -21,48 +23,11 @@ const AboutMe = ({id}) => {
       <div className='SkillsContainer'>
         <span>Skills:</span>
         <div className='Skills'>
-          <div className='SkillsCard' >
-          <span>Frontend Skills</span>
-          <ul>
-            <li>that time</li>
-            <li>that time</li>
-            <li>that time</li>
-            <li>that time</li>
-            <li>that time</li>
-            <li>that time</li>
-            <li>that time</li>
-            <li>that time</li>
-          </ul>
-          </div>
-          <div className='SkillsCard'>
-          <span>Backend Skills</span>
-          <ul>
-            <li>lower bodytytt</li>
-            <li>lower bodytytt</li>
-            <li>lower bodytytt</li>
-            <li>lower bodytytt</li>
-            <li>lower bodytytt</li>
-            <li>lower bodytytt</li>
-          </ul>
-          </div>
-          <div className='SkillsCard'>
-          <span>Database tools</span>
-          <ul>
-            <li>indigo</li>
-          </ul>
-          </div>
-          <div className='SkillsCard'>
-          <span>Testing tools</span>
-          <ul>
-            <li>indigo</li>
-          </ul>
-          </div>
-          <div className='SkillsCard'>
-          <span>DevOps tools</span>
-          <ul>
-            <li>indigo</li>
-          </ul>
-          </div>
+          <SkillCard skillInfo={skillsData.frontend} />
+          <SkillCard skillInfo={skillsData.backend} />
+          <SkillCard skillInfo={skillsData.database} />
+          <SkillCard skillInfo={skillsData.testing} />
+          <SkillCard skillInfo={skillsData.devops} />
         </div>
       </div>
     </div>
