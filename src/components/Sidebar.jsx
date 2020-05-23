@@ -1,5 +1,6 @@
 import React from 'react'
 import { Icon, Menu, Segment, Sidebar } from 'semantic-ui-react'
+import { Link } from "react-scroll";
 
 const SidebarComponent = ({ children, visible, hide }) => {
   return (
@@ -15,20 +16,42 @@ const SidebarComponent = ({ children, visible, hide }) => {
         visible={visible}
         width='thin'
       >
-        <div className='SideOptions' >
+        <Link
+          to='projects'
+          smooth={true}
+          spy={true}
+          offset={-77}
+          duration={1000}
+        >
         <Menu.Item as='a'>
-          <Icon name='home' />
-          Home
+          <Icon name='code' />
+          Projects
         </Menu.Item>
+        </Link>
+        <Link
+         to='aboutMe'
+         smooth={true}
+         spy={true}
+         offset={-77}
+         duration={1000}
+        >
         <Menu.Item as='a'>
-          <Icon name='gamepad' />
-          Games
+          <Icon name='smile' />
+          About Me
         </Menu.Item>
+        </Link>
+        <Link
+          to='contactMe'
+          smooth={true}
+          spy={true}
+          offset={-77}
+          duration={1000}
+          >
         <Menu.Item as='a'>
-          <Icon name='camera' />
-          Channels
+          <Icon name='text telephone' />
+          Contact Me
         </Menu.Item>
-        </div>
+        </Link>
       </Sidebar>
 
       <Sidebar.Pusher dimmed={visible}>

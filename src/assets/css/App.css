@@ -79,7 +79,7 @@
 .button {
   font-family: Roboto;
   width: 37%;
-  height: 25%;
+  height: 50px;
   border: none;
   border-radius: 10%;
   margin-top: 3%;
@@ -247,10 +247,6 @@
   border: 0;
 }
 
-.SideOptions {
-  color: #88f561;
-}
-
 .buttonContainer {
   display: flex;
   flex-direction: column;
@@ -272,6 +268,17 @@
 
 a {
   color: white;
+}
+
+.buttonContainer > a {
+  width: 100%;
+  text-align: center;
+}
+
+.optionsActive {
+  font-size: 16px;
+  font-weight: bold;
+  color: #88f561;
 }
 
 @media (min-width: 500px) {
@@ -463,6 +470,10 @@ a {
   .Contacts > p > img {
     width: 40px;
     cursor: pointer;
+  }
+
+  .buttonContainer > a {
+    width: initial;
   }
 }
 

@@ -21,7 +21,7 @@ const Welcome = ({id}) => {
         <Button
           backgroundColor='#4A8236'
           color='white'
-          value='Download Resume'
+          value='View Resume'
         />
         </div>
       </div>
