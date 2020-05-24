@@ -281,6 +281,36 @@ a {
   color: #88f561;
 }
 
+.ui.modal>.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.moveButtons {
+  margin-left: 1%;
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.moveButtons > button {
+  cursor: pointer;
+  border-color: green;
+  border-width: 2px;
+}
+
+.ui.button {
+  background-color: #4A8236;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
 @media (min-width: 500px) {
   .nameActive {
     margin-top: 5%;
@@ -385,6 +415,11 @@ a {
   .buttonContainer {
     flex-direction: row;
     justify-content: space-evenly;
+  }
+  .ui.button {
+    font-size: 19px;
+    margin-top: initial;
+    margin-bottom: initial;
   }
   .ProjectsBody {
     display: flex;

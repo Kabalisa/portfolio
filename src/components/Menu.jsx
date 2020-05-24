@@ -1,5 +1,5 @@
 import React, { useState, useEffect, Fragment } from 'react';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import menuIcon from '../assets/images/menu.png';
 
 const Menu = ({ Open }) => {

@@ -1,14 +1,12 @@
 import React from 'react';
+import { Button } from 'semantic-ui-react';
 
-const Button = ({ backgroundColor, color, value }) => {
+const BUtton = ({ value, openModal }) => {
   return (
-    <button
-      className='button'
-      style={{ backgroundColor: `${backgroundColor}`, color: `${color}` }}
-    >
+    <Button onClick={openModal} >
       {value}
-    </button>
+    </Button>
   );
 };
 
-export { Button };
+export { BUtton };
