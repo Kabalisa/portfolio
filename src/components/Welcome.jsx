@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-scroll";
 import { Document, Page, pdfjs } from 'react-pdf/dist/entry.webpack';
-import { Button, Header, Icon, Modal } from 'semantic-ui-react';
+import { Button, Icon, Modal } from 'semantic-ui-react';
 import { BUtton } from './button';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import Resume from '../assets/Resume.pdf';
@@ -44,12 +44,12 @@ const Welcome = ({id}) => {
           spy={true}
           offset={-88}
           duration={1000}
-        ><BUtton backgroundColor='#4A8236' color='white' value='See Projects' /></Link>
+        ><BUtton value='See Projects' iconName='code' animation='vertical' /></Link>
         <BUtton
-          backgroundColor='#4A8236'
-          color='white'
           value='View Resume'
           openModal={handleOpen}
+          iconName='envelope open'
+          animation='true'
         />
         </div>
       </div>
@@ -88,8 +88,11 @@ const Welcome = ({id}) => {
       <p>
           Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}
         </p>
-      <Button color='green' onClick={handleClose}>
-        Close
+      <Button onClick={handleClose} className='closeButton' animated='fade' >
+        <Button.Content visible>Close</Button.Content>
+        <Button.Content hidden className='hiddenButton'>
+          <Icon name='window close'/>
+        </Button.Content>
       </Button>
     </Modal.Actions>
   </Modal>

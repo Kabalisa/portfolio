@@ -19,7 +19,7 @@ const ContactMe = ({id}) => {
           </a>
           <p>
             <img alt='whatsapp' src={Whatsapp} />
-            <span>or call on +250785382213</span>
+            <span>or call at +250785382213</span>
           </p>
         </div>
       </div>

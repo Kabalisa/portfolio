@@ -7,8 +7,8 @@ const Projects = ({id}) => {
     <div className='Projects' id={id} >
       <div className='ProjectsBody'>
         <ProjectCard data={authorsHaven} />
-        <ProjectCard data={codelab} />
-        <ProjectCard data={codelab} />
+        {/* <ProjectCard data={codelab} /> */}
+        {/* <ProjectCard data={codelab} /> */}
       </div>
     </div>
   );
