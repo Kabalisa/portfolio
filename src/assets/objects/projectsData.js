@@ -1,17 +1,18 @@
 import image from "../images/backgound.jpeg";
 import mocha from "../images/mochajs-icon.png";
 import jest from "../images/jest.png";
+import dialogflow from "../images/dialogFlow.png";
 
 const authorsHaven = {
   name: "Authorshaven",
   type: "Full-Stack developer - Full-Stack project",
   description:
-    "this is a clone of medium. it allow users to register, login, write, read, share,  and react to articles",
+    "Authorshaven is a clone of Medium. it allow it's users to register, write, publish, read, share, bookmark and react to articles",
   image,
   demo: true,
   stacks: [
     {
-      stack: "Frontend Stack",
+      stack: "Frontend",
       data: [
         {
           name: "ReactJS",
@@ -32,7 +33,7 @@ const authorsHaven = {
       ],
     },
     {
-      stack: "Backend Stack",
+      stack: "Backend",
       data: [
         {
           name: "NodeJS/ExpressJS",
@@ -54,10 +55,23 @@ const authorsHaven = {
       ],
     },
     {
-      stack: "Desting",
+      stack: "Testing",
       data: [
         { name: "Mocha/Chai", image: mocha },
         { name: "Jest/Enzyme", image: jest },
+      ],
+    },
+    {
+      stack: "DevOps",
+      data: [
+        {
+          name: "Travis CI",
+          image: "https://img.icons8.com/color/20/000000/travis-ci.png",
+        },
+        {
+          name: "Docker",
+          image: "https://img.icons8.com/color/100/000000/docker.png",
+        },
       ],
     },
   ],
@@ -65,11 +79,252 @@ const authorsHaven = {
 
 const codelab = {
   name: "Codelab",
-  type: "Fronted developer - Mobile application",
+  type: "Frontend developer - Mobile application",
   description:
-    "this is an app that allows to view top developers who are located in lagos. you can view individual profiles and share them",
+    "This is an app that allows to view top developers located in lagos. you can view their GitHub profiles from the app and share them with other people",
   image,
   demo: true,
+  stacks: [
+    {
+      stack: "Frontend",
+      data: [
+        {
+          name: "React Native",
+          image: "https://img.icons8.com/color/20/000000/react-native.png",
+        },
+        {
+          name: "Apollo Client",
+          image: "https://img.icons8.com/color/20/000000/apollo.png",
+        },
+        {
+          name: "GraphQL",
+          image: "https://img.icons8.com/color/20/000000/graphql.png",
+        },
+        {
+          name: "VanillaJS",
+          image: "https://img.icons8.com/color/20/000000/javascript.png",
+        },
+        {
+          name: "CSS",
+          image: "https://img.icons8.com/color/20/000000/css3.png",
+        },
+      ],
+    },
+    {
+      stack: "Backend",
+      data: [
+        {
+          name: "GitHub API",
+          image: "https://img.icons8.com/metro/20/000000/github.png",
+        },
+        {
+          name: "Firebase",
+          image: "https://img.icons8.com/color/20/000000/firebase.png",
+        },
+      ],
+    },
+    {
+      stack: "Testing",
+      data: [{ name: "Jest/Enzyme", image: jest }],
+    },
+    {
+      stack: "DevOps",
+      data: [
+        {
+          name: "Circle CI",
+          image: "https://img.icons8.com/color/20/000000/circleci.png",
+        },
+      ],
+    },
+  ],
 };
 
-export { authorsHaven, codelab };
+const sendIt = {
+  name: "Send-IT",
+  type: "Full-Stack developer - Full-Stack project",
+  description:
+    "Send-IT is a courier service that helps its users to deliver packages wherever they are to whatever destination",
+  image,
+  demo: true,
+  stacks: [
+    {
+      stack: "Frontend",
+      data: [
+        {
+          name: "HTML",
+          image: "https://img.icons8.com/color/20/000000/html-5.png",
+        },
+        {
+          name: "VanillaJS",
+          image: "https://img.icons8.com/color/20/000000/javascript.png",
+        },
+        {
+          name: "CSS",
+          image: "https://img.icons8.com/color/20/000000/css3.png",
+        },
+      ],
+    },
+    {
+      stack: "Backend",
+      data: [
+        {
+          name: "NodeJS/ExpressJS",
+          image: "https://img.icons8.com/color/20/000000/nodejs.png",
+        },
+        {
+          name: "VanillaJS",
+          image: "https://img.icons8.com/color/20/000000/javascript.png",
+        },
+      ],
+    },
+    {
+      stack: "Database",
+      data: [
+        {
+          name: "PostgreSQL",
+          image: "https://img.icons8.com/color/20/000000/postgreesql.png",
+        },
+        {
+          name: "SQL",
+          image: "https://img.icons8.com/metro/20/000000/sql.png",
+        },
+      ],
+    },
+    {
+      stack: "Testing",
+      data: [{ name: "Mocha/Chai", image: mocha }],
+    },
+    {
+      stack: "DevOps",
+      data: [
+        {
+          name: "Travis CI",
+          image: "https://img.icons8.com/color/20/000000/travis-ci.png",
+        },
+      ],
+    },
+  ],
+};
+
+const portfolio = {
+  name: "Portfolio",
+  type: "Frontend developer - Frontend project",
+  description:
+    "This is my portfolio website. it contains my resume, projects I have worked on, my skills and contact information",
+  image,
+  demo: true,
+  stacks: [
+    {
+      stack: "Frontend",
+      data: [
+        {
+          name: "ReactJS",
+          image: "https://img.icons8.com/ultraviolet/20/000000/react.png",
+        },
+        {
+          name: "VanillaJS",
+          image: "https://img.icons8.com/color/20/000000/javascript.png",
+        },
+        {
+          name: "CSS",
+          image: "https://img.icons8.com/color/20/000000/css3.png",
+        },
+      ],
+    },
+  ],
+};
+
+const converge = {
+  name: "Converge",
+  type: "Frontend developer - Full-Stack project",
+  description:
+    "Converge is The Andela Meeting Room management solution. it helps Andelans book, checkin and checkout of meeting rooms",
+  image,
+  demo: true,
+  stacks: [
+    {
+      stack: "Frontend",
+      data: [
+        {
+          name: "ReactJS",
+          image: "https://img.icons8.com/ultraviolet/20/000000/react.png",
+        },
+        {
+          name: "Apollo Client",
+          image: "https://img.icons8.com/color/20/000000/apollo.png",
+        },
+        {
+          name: "GraphQL",
+          image: "https://img.icons8.com/color/20/000000/graphql.png",
+        },
+        {
+          name: "VanillaJS",
+          image: "https://img.icons8.com/color/20/000000/javascript.png",
+        },
+        {
+          name: "SASS",
+          image: "https://img.icons8.com/color/20/000000/sass.png",
+        },
+      ],
+    },
+    {
+      stack: "Testing",
+      data: [{ name: "Jest/Enzyme", image: jest }],
+    },
+    {
+      stack: "DevOps",
+      data: [
+        {
+          name: "Circle CI",
+          image: "https://img.icons8.com/color/20/000000/circleci.png",
+        },
+        {
+          name: "Docker",
+          image: "https://img.icons8.com/color/100/000000/docker.png",
+        },
+      ],
+    },
+  ],
+};
+
+const companionApp = {
+  name: "Companion App",
+  type: "Frontend developer - Mobile application",
+  description:
+    "Companion App is a mobile application that acts as your virtual buddy that allows you to book meeting rooms directly from your phone in Andela",
+  image,
+  demo: true,
+  stacks: [
+    {
+      stack: "Frontend",
+      data: [
+        {
+          name: "React Native",
+          image: "https://img.icons8.com/color/20/000000/react-native.png",
+        },
+        {
+          name: "Redux",
+          image: "https://img.icons8.com/color/20/000000/redux.png",
+        },
+        {
+          name: "VanillaJS",
+          image: "https://img.icons8.com/color/20/000000/javascript.png",
+        },
+        {
+          name: "CSS",
+          image: "https://img.icons8.com/color/20/000000/css3.png",
+        },
+      ],
+    },
+    {
+      stack: "Testing",
+      data: [{ name: "Jest/Enzyme", image: jest }],
+    },
+    {
+      stack: "Other Tool",
+      data: [{ name: "DialogFlow", image: dialogflow }],
+    },
+  ],
+};
+
+export { authorsHaven, codelab, sendIt, portfolio, converge, companionApp };

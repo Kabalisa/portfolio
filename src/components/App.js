@@ -6,7 +6,7 @@ import { Projects } from './Projects';
 import { AboutMe } from './AboutMe';
 import { ContactMe } from './ContactMe';
 import { SidebarComponent } from './Sidebar';
-//an indication of which page is active is needed.
+
 const App = () => {
   const [visible, setVisible] = useState(false);
   
