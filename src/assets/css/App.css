@@ -371,6 +371,15 @@ body ::-webkit-scrollbar-track {
   flex-wrap: wrap;
 }
 
+.ui.modal > .demoModal {
+  padding: initial !important;
+  line-height: 0 !important;
+}
+
+.ui.modal .content > .demoDescription {
+  padding: initial !important;
+}
+
 @media (min-width: 500px) {
   .nameActive {
     margin-top: 5%;
@@ -572,6 +581,11 @@ body ::-webkit-scrollbar-track {
   }
   .closeButton {
     width: 15% !important;
+  }
+
+  .demoModal {
+    padding: initial !important;
+    line-height: 0 !important;
   }
 }
 

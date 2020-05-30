@@ -2,6 +2,8 @@ import image from "../images/backgound.jpeg";
 import mocha from "../images/mochajs-icon.png";
 import jest from "../images/jest.png";
 import dialogflow from "../images/dialogFlow.png";
+import AuthorHavenVid from "../videos/AuthorHavenVid.mov";
+import SendITVid from "../videos/Send-IT.mov";
 
 const authorsHaven = {
   name: "Authorshaven",
@@ -10,6 +12,7 @@ const authorsHaven = {
     "Authorshaven is a clone of Medium. it allow it's users to register, write, publish, read, share, bookmark and react to articles",
   image,
   demo: true,
+  demoVideo: AuthorHavenVid,
   stacks: [
     {
       stack: "Frontend",
@@ -83,7 +86,7 @@ const codelab = {
   description:
     "This is an app that allows to view top developers located in lagos. you can view their GitHub profiles from the app and share them with other people",
   image,
-  demo: true,
+  demo: false,
   stacks: [
     {
       stack: "Frontend",
@@ -146,6 +149,7 @@ const sendIt = {
     "Send-IT is a courier service that helps its users to deliver packages wherever they are to whatever destination",
   image,
   demo: true,
+  demoVideo: SendITVid,
   stacks: [
     {
       stack: "Frontend",
@@ -212,7 +216,7 @@ const portfolio = {
   description:
     "This is my portfolio website. it contains my resume, projects I have worked on, my skills and contact information",
   image,
-  demo: true,
+  demo: false,
   stacks: [
     {
       stack: "Frontend",
@@ -240,7 +244,7 @@ const converge = {
   description:
     "Converge is The Andela Meeting Room management solution. it helps Andelans book, checkin and checkout of meeting rooms",
   image,
-  demo: true,
+  demo: false,
   stacks: [
     {
       stack: "Frontend",
@@ -293,7 +297,7 @@ const companionApp = {
   description:
     "Companion App is a mobile application that acts as your virtual buddy that allows you to book meeting rooms directly from your phone in Andela",
   image,
-  demo: true,
+  demo: false,
   stacks: [
     {
       stack: "Frontend",

@@ -1,19 +1,23 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import { Card, Icon, Button, Modal } from "semantic-ui-react";
+import Vid from "../assets/videos/AuthorHavenVid.mov";
 
 const ProjectCard = ({ data }) => {
-  const { stacks } = data;
+  const { stacks, demoVideo } = data;
   const [open, setOpen] = useState(false);
+  const [demoOpen, setDemoOpen] = useState(false);
 
   const show = () => setOpen(true);
   const close = () => setOpen(false);
+  const openDemo = () => setDemoOpen(true);
+  const closeDemo = () => setDemoOpen(false);
 
   const extra = (
     <div>
       <div className="extraLinks">
         <a onClick={show}>Stacks</a>
-        <a>{data.demo ? "Demo" : ""}</a>
+        {data.demo ? <a onClick={openDemo}>Demo</a> : ""}
         <a>Visit</a>
       </div>
       <div className="extraIcons">
@@ -56,6 +60,15 @@ const ProjectCard = ({ data }) => {
               </div>
             );
           })}
+        </Modal.Content>
+      </Modal>
+      <Modal open={demoOpen} onClose={closeDemo}>
+        <Modal.Content className="demoModal">
+          <Modal.Description className="demoDescription">
+            <video width="100%" height="100%" controls>
+              <source src={demoVideo} />
+            </video>
+          </Modal.Description>
         </Modal.Content>
       </Modal>
     </div>
