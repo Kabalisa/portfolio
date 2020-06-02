@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-import { Card, Icon, Button, Modal } from "semantic-ui-react";
-import Vid from "../assets/videos/AuthorHavenVid.mov";
+import { Card, Icon, Modal } from "semantic-ui-react";
 
 const ProjectCard = ({ data }) => {
   const { stacks, demoVideo } = data;
@@ -35,7 +34,7 @@ const ProjectCard = ({ data }) => {
   return (
     <div className="ProjectsCard">
       <Card
-        image={data.image}
+        image={data.projectImage}
         header={data.name}
         meta={data.type}
         description={data.description}

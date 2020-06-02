@@ -1,16 +1,22 @@
-import image from "../images/backgound.jpeg";
+import image from "../images/portfolio.png";
+import authors from "../images/authorsHaven.png";
+import lab from "../images/codelab.png";
+import send from "../images/sendIt.png";
+import mrm from "../images/conve.png";
+import companion from "../images/companion.png";
 import mocha from "../images/mochajs-icon.png";
 import jest from "../images/jest.png";
 import dialogflow from "../images/dialogFlow.png";
 import AuthorHavenVid from "../videos/AuthorHavenVid.mov";
 import SendITVid from "../videos/Send-IT.mov";
+import codeLabVid from "../videos/codeLabVid.mov";
 
 const authorsHaven = {
   name: "Authorshaven",
   type: "Full-Stack developer - Full-Stack project",
   description:
     "Authorshaven is a clone of Medium. it allow it's users to register, write, publish, read, share, bookmark and react to articles",
-  image,
+  projectImage: authors,
   demo: true,
   demoVideo: AuthorHavenVid,
   stacks: [
@@ -85,8 +91,9 @@ const codelab = {
   type: "Frontend developer - Mobile application",
   description:
     "This is an app that allows to view top developers located in lagos. you can view their GitHub profiles from the app and share them with other people",
-  image,
-  demo: false,
+  projectImage: lab,
+  demo: true,
+  demoVideo: codeLabVid,
   stacks: [
     {
       stack: "Frontend",
@@ -147,7 +154,7 @@ const sendIt = {
   type: "Full-Stack developer - Full-Stack project",
   description:
     "Send-IT is a courier service that helps its users to deliver packages wherever they are to whatever destination",
-  image,
+  projectImage: send,
   demo: true,
   demoVideo: SendITVid,
   stacks: [
@@ -215,7 +222,7 @@ const portfolio = {
   type: "Frontend developer - Frontend project",
   description:
     "This is my portfolio website. it contains my resume, projects I have worked on, my skills and contact information",
-  image,
+  projectImage: image,
   demo: false,
   stacks: [
     {
@@ -243,7 +250,7 @@ const converge = {
   type: "Frontend developer - Full-Stack project",
   description:
     "Converge is The Andela Meeting Room management solution. it helps Andelans book, checkin and checkout of meeting rooms",
-  image,
+  projectImage: mrm,
   demo: false,
   stacks: [
     {
@@ -296,7 +303,7 @@ const companionApp = {
   type: "Frontend developer - Mobile application",
   description:
     "Companion App is a mobile application that acts as your virtual buddy that allows you to book meeting rooms directly from your phone in Andela",
-  image,
+  projectImage: companion,
   demo: false,
   stacks: [
     {

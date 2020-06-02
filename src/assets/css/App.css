@@ -380,6 +380,11 @@ body ::-webkit-scrollbar-track {
   padding: initial !important;
 }
 
+.ui.card > .image:not(.ui) > img,
+.ui.cards > .card > .image:not(.ui) > img {
+  height: 185px;
+}
+
 @media (min-width: 500px) {
   .nameActive {
     margin-top: 5%;

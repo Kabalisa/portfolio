@@ -15,8 +15,8 @@ const Projects = ({ id }) => {
       <div className="ProjectsBody">
         <ProjectCard data={authorsHaven} />
         <ProjectCard data={codelab} />
-        <ProjectCard data={sendIt} />
         <ProjectCard data={portfolio} />
+        <ProjectCard data={sendIt} />
         <ProjectCard data={converge} />
         <ProjectCard data={companionApp} />
       </div>
