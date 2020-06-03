@@ -1,9 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import { Card, Icon, Modal } from "semantic-ui-react";
+import { Link } from "react-scroll";
 
 const ProjectCard = ({ data }) => {
-  const { stacks, demoVideo } = data;
+  const { stacks, demoVideo, visit, visitLink, gitHubLink, agile } = data;
   const [open, setOpen] = useState(false);
   const [demoOpen, setDemoOpen] = useState(false);
 
@@ -17,17 +18,31 @@ const ProjectCard = ({ data }) => {
       <div className="extraLinks">
         <a onClick={show}>Stacks</a>
         {data.demo ? <a onClick={openDemo}>Demo</a> : ""}
-        <a>Visit</a>
+        {visit === true ? (
+          <a href={visitLink} target="_blank">
+            Visit
+          </a>
+        ) : visit === "here" ? (
+          <Link to="name" spy={true} smooth={true} offset={-90} duration={1000}>
+            Visit
+          </Link>
+        ) : (
+          ""
+        )}
       </div>
-      <div className="extraIcons">
-        <a>
+      <div className={agile ? "extraIconsOne" : "extraIconsTwo"}>
+        <a href={gitHubLink} target="_blank">
           <Icon name="github" />
           GitHub
         </a>
-        <a>
-          <Icon name="pin" />
-          Pivotal Tracker
-        </a>
+        {agile ? (
+          <a>
+            <Icon name="pin" />
+            Pivotal Tracker
+          </a>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );

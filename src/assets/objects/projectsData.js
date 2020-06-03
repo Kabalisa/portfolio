@@ -19,6 +19,10 @@ const authorsHaven = {
   projectImage: authors,
   demo: true,
   demoVideo: AuthorHavenVid,
+  visit: true,
+  visitLink: "https://authors-haven-ui.herokuapp.com/",
+  gitHubLink: "https://github.com/Kabalisa/riders-frontend.git",
+  agile: false,
   stacks: [
     {
       stack: "Frontend",
@@ -94,6 +98,11 @@ const codelab = {
   projectImage: lab,
   demo: true,
   demoVideo: codeLabVid,
+  visit: true,
+  visitLink:
+    "https://www.amazon.com/Innocent-Fiston-Kabalisa-CodeLab/dp/B07XJ4J1T5/ref=sr_1_5?dchild=1&keywords=codelab&qid=1591176164&sr=8-5",
+  gitHubLink: "https://github.com/Kabalisa/CodeLab.git",
+  agile: true,
   stacks: [
     {
       stack: "Frontend",
@@ -157,6 +166,10 @@ const sendIt = {
   projectImage: send,
   demo: true,
   demoVideo: SendITVid,
+  visit: true,
+  visitLink: "https://send-order.herokuapp.com/",
+  gitHubLink: "https://github.com/Kabalisa/Send-IT-API.git",
+  agile: true,
   stacks: [
     {
       stack: "Frontend",
@@ -224,6 +237,9 @@ const portfolio = {
     "This is my portfolio website. it contains my resume, projects I have worked on, my skills and contact information",
   projectImage: image,
   demo: false,
+  visit: "here",
+  gitHubLink: "https://github.com/Kabalisa/portfolio.git",
+  agile: false,
   stacks: [
     {
       stack: "Frontend",
@@ -252,6 +268,9 @@ const converge = {
     "Converge is The Andela Meeting Room management solution. it helps Andelans book, checkin and checkout of meeting rooms",
   projectImage: mrm,
   demo: false,
+  visit: false,
+  gitHubLink: "https://github.com/Kabalisa/converge-frontend.git",
+  agile: false,
   stacks: [
     {
       stack: "Frontend",
@@ -305,6 +324,9 @@ const companionApp = {
     "Companion App is a mobile application that acts as your virtual buddy that allows you to book meeting rooms directly from your phone in Andela",
   projectImage: companion,
   demo: false,
+  visit: false,
+  gitHubLink: "https://github.com/Kabalisa/companion-app.git",
+  agile: false,
   stacks: [
     {
       stack: "Frontend",
