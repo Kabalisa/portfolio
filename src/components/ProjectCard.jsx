@@ -4,7 +4,15 @@ import { Card, Icon, Modal } from "semantic-ui-react";
 import { Link } from "react-scroll";
 
 const ProjectCard = ({ data }) => {
-  const { stacks, demoVideo, visit, visitLink, gitHubLink, agile } = data;
+  const {
+    stacks,
+    demoVideo,
+    visit,
+    visitLink,
+    gitHubLink,
+    agile,
+    agileLink,
+  } = data;
   const [open, setOpen] = useState(false);
   const [demoOpen, setDemoOpen] = useState(false);
 
@@ -36,7 +44,7 @@ const ProjectCard = ({ data }) => {
           GitHub
         </a>
         {agile ? (
-          <a>
+          <a href={agileLink} target="_blank">
             <Icon name="pin" />
             Pivotal Tracker
           </a>

@@ -103,6 +103,7 @@ const codelab = {
     "https://www.amazon.com/Innocent-Fiston-Kabalisa-CodeLab/dp/B07XJ4J1T5/ref=sr_1_5?dchild=1&keywords=codelab&qid=1591176164&sr=8-5",
   gitHubLink: "https://github.com/Kabalisa/CodeLab.git",
   agile: true,
+  agileLink:"https://www.pivotaltracker.com/n/projects/2350785",
   stacks: [
     {
       stack: "Frontend",
@@ -170,6 +171,7 @@ const sendIt = {
   visitLink: "https://send-order.herokuapp.com/",
   gitHubLink: "https://github.com/Kabalisa/Send-IT-API.git",
   agile: true,
+  agileLink: "https://www.pivotaltracker.com/projects/2221999",
   stacks: [
     {
       stack: "Frontend",
