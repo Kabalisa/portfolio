@@ -12,8 +12,6 @@ const Menu = ({ Open }) => {
     return () => window.addEventListener('resize', updateWidth);
   });
 
-  console.log('===let see now', width);
-
   return (
     <div className='menu'>
       <span className='name' >
