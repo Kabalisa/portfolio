@@ -8,7 +8,7 @@ import mocha from "../images/mochajs-icon.png";
 import jest from "../images/jest.png";
 import dialogflow from "../images/dialogFlow.png";
 import AuthorHavenVid from "../videos/AuthorHavenVid.mov";
-import SendITVid from "../videos/Send-IT.mov";
+import SendITVid from "../videos/sendIT.mov";
 import codeLabVid from "../videos/codeLabVid.mov";
 
 const authorsHaven = {
