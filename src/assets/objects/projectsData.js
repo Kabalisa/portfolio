@@ -7,9 +7,9 @@ import companion from "../images/companion.png";
 import mocha from "../images/mochajs-icon.png";
 import jest from "../images/jest.png";
 import dialogflow from "../images/dialogFlow.png";
-import AuthorHavenVid from "../videos/AuthorHavenVid.mov";
-import SendITVid from "../videos/sendIT.mov";
-import codeLabVid from "../videos/codeLabVid.mov";
+import AuthorHavenVid from "../videos/AuthorVid.mov";
+import SendITVid from "../videos/SendIT.mov";
+import codeLabVid from "../videos/codeVid.mov";
 
 const authorsHaven = {
   name: "Authorshaven",
@@ -103,7 +103,7 @@ const codelab = {
     "https://www.amazon.com/Innocent-Fiston-Kabalisa-CodeLab/dp/B07XJ4J1T5/ref=sr_1_5?dchild=1&keywords=codelab&qid=1591176164&sr=8-5",
   gitHubLink: "https://github.com/Kabalisa/CodeLab.git",
   agile: true,
-  agileLink:"https://www.pivotaltracker.com/n/projects/2350785",
+  agileLink: "https://www.pivotaltracker.com/n/projects/2350785",
   stacks: [
     {
       stack: "Frontend",
