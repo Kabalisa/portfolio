@@ -7,9 +7,9 @@ import companion from "../images/companion.png";
 import mocha from "../images/mochajs-icon.png";
 import jest from "../images/jest.png";
 import dialogflow from "../images/dialogFlow.png";
-import AuthorHavenVid from "../videos/AuthorVid.mov";
-import SendITVid from "../videos/SendIT.mov";
-import codeLabVid from "../videos/codeVid.mov";
+import AuthorHavenVid from "../videos/AuthorVid.mp4";
+import SendITVid from "../videos/SendIT.mp4";
+import codeLabVid from "../videos/codeVid.mp4";
 
 const authorsHaven = {
   name: "Authorshaven",
