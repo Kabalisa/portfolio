@@ -15,7 +15,7 @@ const authorsHaven = {
   name: "Authorshaven",
   type: "Full-Stack developer - Full-Stack project",
   description:
-    "Authorshaven is a clone of Medium. it allow it's users to register, write, publish, read, share, bookmark and react to articles",
+    "Authorshaven is a clone of Medium. it allows it's users to register, write, publish, read, share, bookmark and react to articles",
   projectImage: authors,
   demo: true,
   demoVideo: AuthorHavenVid,
