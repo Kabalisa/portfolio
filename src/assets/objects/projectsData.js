@@ -94,7 +94,7 @@ const codelab = {
   name: "Codelab",
   type: "Frontend developer - Mobile application",
   description:
-    "This is an app that allows to view top developers located in lagos. you can view their GitHub profiles from the app and share them with other people",
+    "This is an app that allows to view top 100 developers located in Lagos. you can view their GitHub profiles from the app and share them with other people",
   projectImage: lab,
   demo: true,
   demoVideo: codeLabVid,
