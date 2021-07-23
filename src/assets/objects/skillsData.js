@@ -1,7 +1,7 @@
 const skillsData = {
     frontend: {
         title: 'Frontend Skills',
-        data: ['ReactJS', 'React Native', 'Redux', 'Apollo client', 'VanillaJS', 'Typescript', 'HTML', 'SASS', 'CSS']
+        data: ['ReactJS', 'React Native','VueJS', 'Redux', 'Apollo client', 'VanillaJS', 'Typescript', 'HTML', 'SASS', 'CSS']
     },
     backend: {
         title: 'Backend Skills',
@@ -17,7 +17,7 @@ const skillsData = {
     },
     devops: {
         title: 'Devops Tools and Technologies',
-        data: ['Git', 'TravisCI', 'CircleCI', 'Docker']
+        data: ['Git', 'TravisCI', 'CircleCI', 'Docker', 'Kubernetes']
     }
 };
 
